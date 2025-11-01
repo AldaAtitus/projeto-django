@@ -1,0 +1,14 @@
+<h1>Minhas Tarefas</h1>
+<a href="{% url 'add_task' %}">Adicionar Tarefa</a>
+<ul>
+  {% for task in tasks %}
+    <li>
+      {{ task.title }}
+      {% if not task.completed %}
+        <a href="{% url 'complete_task' task.id %}">[Concluir]</a>
+      {% else %}
+        ✅
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
