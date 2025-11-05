@@ -1,0 +1,3 @@
+
+# don't track nested git backups
+callsystem/.git.backup
