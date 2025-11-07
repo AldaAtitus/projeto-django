@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .models import Task
 import redis
 import json
@@ -36,6 +36,21 @@ def complete_task(request, task_id):
     message = {
         "action": "completed",
         "id": task.id,
+        "title": task.title,
+        "completed": task.completed,
+    }
+    redis_client.publish("tasks", json.dumps(message))
+
+    return redirect('task_list')
+
+def delete_task(request, task_id):
+    task = get_object_or_404(Task, id=task_id)
+    task.delete()
+
+    # Publicar no Redis quando removida
+    message = {
+        "action": "deleted",
+        "id": task_id,
         "title": task.title,
         "completed": task.completed,
     }

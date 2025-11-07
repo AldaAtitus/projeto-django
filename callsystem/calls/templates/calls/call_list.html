@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head><title>Chamadas</title></head>
+<body>
+    <h1>📞 Chamadas</h1>
+
+    <form method="POST" action="{% url 'add_call' %}">
+        {% csrf_token %}
+        <input type="text" name="cliente" placeholder="Cliente" required>
+        <input type="text" name="descricao" placeholder="Descrição" required>
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <ul>
+        {% for call in calls %}
+            <li>
+                {{ call.cliente }} - {{ call.descricao }} -
+                {% if call.status == "concluida" %}
+                    ✅ Concluída
+                {% else %}
+                    <a href="{% url 'complete_call' call.id %}">Concluir</a>
+                {% endif %}
+                | <a href="{% url 'delete_call' call.id %}">Remover</a>
+            </li>
+        {% empty %}
+            <li>Nenhuma chamada cadastrada.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
