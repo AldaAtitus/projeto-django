@@ -1,0 +1,6 @@
+ID: 3 | Título: terceiro teste | Concluída: False
+ID: 4 | Título: terceiro teste | Concluída: False
+ID: 5 | Título: terceiro teste | Concluída: False
+[COMPLETED] ID: 5 | Título: terceiro teste | Concluída: True
+[CREATED] ID: 6 | Título: tarefa quatro | Concluída: False
+[COMPLETED] ID: 6 | Título: tarefa quatro | Concluída: True
