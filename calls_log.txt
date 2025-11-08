@@ -1,0 +1,5 @@
+2025-11-07 20:38:29 [CALLSYSTEM-CREATED] {'system': 'callsystem', 'action': 'created', 'id': 5, 'cliente': 'União', 'descricao': 'consumer unificado: ', 'status': 'pendente'}
+2025-11-07 20:42:20 [CALLSYSTEM-CREATED] {'system': 'callsystem', 'action': 'created', 'id': 6, 'cliente': 'União2', 'descricao': 'mais uma tentativa de um consumer unificado desta data', 'status': 'pendente'}
+2025-11-07 21:08:15 [CALLSYSTEM-COMPLETED] {'system': 'callsystem', 'action': 'completed', 'id': 1, 'cliente': 'Pindamonhangaba', 'descricao': 'testando api', 'status': 'concluida'}
+2025-11-07 21:08:16 [CALLSYSTEM-COMPLETED] {'system': 'callsystem', 'action': 'completed', 'id': 3, 'cliente': 'Sorte', 'descricao': 'terceira da sorte', 'status': 'concluida'}
+2025-11-07 21:08:17 [CALLSYSTEM-COMPLETED] {'system': 'callsystem', 'action': 'completed', 'id': 5, 'cliente': 'União', 'descricao': 'consumer unificado: ', 'status': 'concluida'}

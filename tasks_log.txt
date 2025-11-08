@@ -1,0 +1,5 @@
+2025-11-07 20:38:57 [TASKMANAGER-UNKNOWN] {'id': 8, 'title': 'Consumer unificado ', 'completed': False}
+2025-11-07 20:40:57 [TASKMANAGER-UNKNOWN] {'id': 9, 'title': 'consumidor unificado desta data especifica ', 'completed': False}
+2025-11-07 21:08:03 [TASKMANAGER-COMPLETED] {'action': 'completed', 'id': 13, 'title': 'Quadragésimo quarto teste - 4', 'completed': True}
+2025-11-07 21:08:09 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 13, 'title': 'Quadragésimo quarto teste - 4', 'completed': True}
+2025-11-07 21:08:25 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 3, 'title': 'terceiro teste', 'completed': True}

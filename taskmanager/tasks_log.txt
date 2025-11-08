@@ -9,3 +9,10 @@ ID: 5 | Título: terceiro teste | Concluída: False
 [DELETED] ID: 6 | Título: tarefa quatro | Concluída: True
 [CREATED] ID: 7 | Título: Nova tarefa 4 | Concluída: False
 [COMPLETED] ID: 7 | Título: Nova tarefa 4 | Concluída: True
+[CREATED] ID: 12 | Título: ola | Concluída: False
+[COMPLETED] ID: 12 | Título: ola | Concluída: True
+[DELETED] ID: 12 | Título: ola | Concluída: True
+[CREATED] ID: 13 | Título: Quadragésimo quarto teste - 4 | Concluída: False
+[COMPLETED] ID: 13 | Título: Quadragésimo quarto teste - 4 | Concluída: True
+[DELETED] ID: 13 | Título: Quadragésimo quarto teste - 4 | Concluída: True
+[DELETED] ID: 3 | Título: terceiro teste | Concluída: True
