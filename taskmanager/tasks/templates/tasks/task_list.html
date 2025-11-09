@@ -1,15 +1,32 @@
 <h1>Minhas Tarefas</h1>
 <a href="{% url 'add_task' %}">Adicionar Tarefa</a>
+
 <ul>
-    {% for task in tasks %}
-        <li>
-            {{ task.title }} -
-            {% if task.completed %}
+  {% for task in tasks %}
+    <li>
+      {{ task.title }}
+      {% if task.completed %}
+        ✅ Concluída
+      {% else %}
+        <a href="{% url 'complete_task' task.id %}">Concluir</a>
+      {% endif %}
+      | <a href="{% url 'delete_task' task.id %}">Remover</a>
+
+      {% if task.subtasks.all %}
+        <ul>
+          {% for sub in task.subtasks.all %}
+            <li>
+              ↳ {{ sub.title }}
+              {% if sub.completed %}
                 ✅ Concluída
-            {% else %}
-                <a href="{% url 'complete_task' task.id %}">Concluir</a>
-            {% endif %}
-            | <a href="{% url 'delete_task' task.id %}">Remover</a>
-        </li>
-    {% endfor %}
+              {% else %}
+                <a href="{% url 'complete_task' sub.id %}">Concluir</a>
+              {% endif %}
+              | <a href="{% url 'delete_task' sub.id %}">Remover</a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
 </ul>

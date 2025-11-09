@@ -1,6 +1,15 @@
-<h1>Adicionar Tarefa</h1>
+<h2>Nova Tarefa</h2>
 <form method="post">
   {% csrf_token %}
-  <input type="text" name="title" placeholder="Título da tarefa">
-  <button type="submit">Salvar</button>
+  <input type="text" name="title" placeholder="Título da tarefa" required>
+  <br>
+  <label>Subtarefa de:</label>
+  <select name="parent">
+    <option value="">Nenhuma</option>
+    {% for task in tasks %}
+      <option value="{{ task.id }}">{{ task.title }}</option>
+    {% endfor %}
+  </select>
+  <br><br>
+  <button type="submit">Criar</button>
 </form>

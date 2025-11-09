@@ -10,7 +10,13 @@ redis_client = redis.Redis(host='localhost', port=6379, db=0)
 class Task(models.Model):
     title = models.CharField(max_length=200)
     completed = models.BooleanField(default=False)
-
+    parent = models.ForeignKey(
+        'self',
+        null=True,
+        blank=True,
+        on_delete=models.CASCADE,
+        related_name='subtasks'
+    )
     def __str__(self):
         return self.title
 

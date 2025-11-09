@@ -3,3 +3,9 @@
 2025-11-07 21:08:03 [TASKMANAGER-COMPLETED] {'action': 'completed', 'id': 13, 'title': 'Quadragésimo quarto teste - 4', 'completed': True}
 2025-11-07 21:08:09 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 13, 'title': 'Quadragésimo quarto teste - 4', 'completed': True}
 2025-11-07 21:08:25 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 3, 'title': 'terceiro teste', 'completed': True}
+2025-11-09 15:55:25 [TASKMANAGER-CREATED] {'action': 'created', 'id': 15, 'title': 'limpar a casa', 'completed': False}
+2025-11-09 15:55:45 [TASKMANAGER-CREATED] {'action': 'created', 'id': 16, 'title': 'remover o lixo', 'completed': False}
+2025-11-09 15:59:34 [TASKMANAGER-COMPLETED] {'action': 'completed', 'id': 16, 'title': 'remover o lixo', 'completed': True}
+2025-11-09 16:00:04 [TASKMANAGER-COMPLETED] {'action': 'completed', 'id': 15, 'title': 'limpar a casa', 'completed': True}
+2025-11-09 16:00:07 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 16, 'title': 'remover o lixo', 'completed': True}
+2025-11-09 16:00:09 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 15, 'title': 'limpar a casa', 'completed': True}

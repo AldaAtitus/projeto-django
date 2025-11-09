@@ -3,3 +3,7 @@
 2025-11-07 21:08:15 [CALLSYSTEM-COMPLETED] {'system': 'callsystem', 'action': 'completed', 'id': 1, 'cliente': 'Pindamonhangaba', 'descricao': 'testando api', 'status': 'concluida'}
 2025-11-07 21:08:16 [CALLSYSTEM-COMPLETED] {'system': 'callsystem', 'action': 'completed', 'id': 3, 'cliente': 'Sorte', 'descricao': 'terceira da sorte', 'status': 'concluida'}
 2025-11-07 21:08:17 [CALLSYSTEM-COMPLETED] {'system': 'callsystem', 'action': 'completed', 'id': 5, 'cliente': 'União', 'descricao': 'consumer unificado: ', 'status': 'concluida'}
+2025-11-09 16:06:24 [CALLSYSTEM-DELETED] {'system': 'callsystem', 'action': 'deleted', 'id': 6, 'cliente': 'União2', 'descricao': 'mais uma tentativa de um consumer unificado desta data', 'status': 'pendente'}
+2025-11-09 16:09:39 [CALLSYSTEM-CREATED] {'system': 'callsystem', 'action': 'created', 'id': 7, 'cliente': 'Jacinto Pinto de Paula', 'descricao': 'Falta de materiais lubrificantes', 'status': 'pendente'}
+2025-11-09 16:10:07 [CALLSYSTEM-COMPLETED] {'system': 'callsystem', 'action': 'completed', 'id': 7, 'cliente': 'Jacinto Pinto de Paula', 'descricao': 'Falta de materiais lubrificantes', 'status': 'concluida'}
+2025-11-09 16:10:10 [CALLSYSTEM-DELETED] {'system': 'callsystem', 'action': 'deleted', 'id': 5, 'cliente': 'União', 'descricao': 'consumer unificado: ', 'status': 'concluida'}
