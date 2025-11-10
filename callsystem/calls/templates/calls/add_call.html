@@ -3,12 +3,12 @@
 <head><title>Nova chamada</title></head>
 <body>
     <h1>Nova Chamada</h1>
-    <form method="POST">
-        {% csrf_token %}
-        <input type="text" name="cliente" placeholder="Cliente" required>
-        <input type="text" name="descricao" placeholder="Descrição" required>
-        <button type="submit">Criar</button>
-    </form>
+    <form method="POST" action="{% url 'add_call' %}">
+    {% csrf_token %}
+    <input type="text" name="cliente" placeholder="Cliente" required>
+    <input type="text" name="descricao" placeholder="Descrição" required>
+    <button type="submit">Criar</button>
+</form>
     <p><a href="{% url 'call_list' %}">Voltar</a></p>
 </body>
 </html>

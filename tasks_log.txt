@@ -9,3 +9,9 @@
 2025-11-09 16:00:04 [TASKMANAGER-COMPLETED] {'action': 'completed', 'id': 15, 'title': 'limpar a casa', 'completed': True}
 2025-11-09 16:00:07 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 16, 'title': 'remover o lixo', 'completed': True}
 2025-11-09 16:00:09 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 15, 'title': 'limpar a casa', 'completed': True}
+2025-11-10 13:31:35 [TASKMANAGER-CREATED] {'action': 'created', 'id': 17, 'title': 'Contratar pedreiro', 'completed': False}
+2025-11-10 13:31:56 [TASKMANAGER-CREATED] {'action': 'created', 'id': 18, 'title': 'comprar cimento', 'completed': False}
+2025-11-10 13:32:20 [TASKMANAGER-CREATED] {'action': 'created', 'id': 19, 'title': 'comprar tijolos', 'completed': False}
+2025-11-10 13:32:44 [TASKMANAGER-COMPLETED] {'action': 'completed', 'id': 18, 'title': 'comprar cimento', 'completed': True}
+2025-11-10 13:32:54 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 19, 'title': 'comprar tijolos', 'completed': False}
+2025-11-10 13:33:03 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 17, 'title': 'Contratar pedreiro', 'completed': False}
