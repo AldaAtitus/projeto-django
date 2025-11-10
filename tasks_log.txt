@@ -15,3 +15,41 @@
 2025-11-10 13:32:44 [TASKMANAGER-COMPLETED] {'action': 'completed', 'id': 18, 'title': 'comprar cimento', 'completed': True}
 2025-11-10 13:32:54 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 19, 'title': 'comprar tijolos', 'completed': False}
 2025-11-10 13:33:03 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 17, 'title': 'Contratar pedreiro', 'completed': False}
+2025-11-10 20:02:21 [TASKMANAGER-CREATED] {'action': 'created', 'id': 20, 'title': 'ir no mercado', 'completed': False}
+2025-11-10 20:02:34 [TASKMANAGER-CREATED] {'action': 'created', 'id': 21, 'title': 'comprar pão', 'completed': False}
+2025-11-10 20:05:31 [TASKMANAGER-COMPLETED] {'action': 'completed', 'id': 21, 'title': 'comprar pão', 'completed': True}
+2025-11-10 20:05:42 [TASKMANAGER-COMPLETED] {'action': 'completed', 'id': 20, 'title': 'ir no mercado', 'completed': True}
+2025-11-10 20:05:54 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 21, 'title': 'comprar pão', 'completed': True}
+2025-11-10 20:05:55 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 20, 'title': 'ir no mercado', 'completed': True}
+2025-11-10 20:06:27 [TASKMANAGER-CREATED] {'action': 'created', 'id': 22, 'title': 'Ir no shopping ', 'completed': False}
+2025-11-10 20:06:44 [TASKMANAGER-CREATED] {'action': 'created', 'id': 23, 'title': 'comprar hambúrguer ', 'completed': False}
+2025-11-10 20:07:12 [TASKMANAGER-CREATED] {'action': 'created', 'id': 24, 'title': 'comprar refri', 'completed': False}
+2025-11-10 20:07:15 [TASKMANAGER-COMPLETED] {'action': 'completed', 'id': 22, 'title': 'Ir no shopping ', 'completed': True}
+2025-11-10 20:07:24 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 22, 'title': 'Ir no shopping ', 'completed': True}
+2025-11-10 20:12:23 [TASKMANAGER-CREATED] {'action': 'created', 'id': 25, 'title': 'Fazer projeto da escola', 'completed': False}
+2025-11-10 20:12:43 [TASKMANAGER-CREATED] {'action': 'created', 'id': 26, 'title': 'Comprar papel', 'completed': False}
+2025-11-10 20:12:58 [TASKMANAGER-CREATED] {'action': 'created', 'id': 27, 'title': 'comprar palitos', 'completed': False}
+2025-11-10 20:13:18 [TASKMANAGER-CREATED] {'action': 'created', 'id': 28, 'title': 'comprar barbante', 'completed': False}
+2025-11-10 20:13:37 [TASKMANAGER-COMPLETED] {'system': 'taskmanager', 'action': 'completed', 'id': 26, 'title': 'Comprar papel', 'completed': True}
+2025-11-10 20:13:37 [TASKMANAGER-COMPLETED] {'system': 'taskmanager', 'action': 'completed', 'id': 27, 'title': 'comprar palitos', 'completed': True}
+2025-11-10 20:13:37 [TASKMANAGER-COMPLETED] {'system': 'taskmanager', 'action': 'completed', 'id': 25, 'title': 'Fazer projeto da escola', 'completed': True}
+2025-11-10 20:13:41 [TASKMANAGER-DELETED] {'action': 'deleted', 'id': 25, 'title': 'Fazer projeto da escola', 'completed': True}
+2025-11-10 20:22:44 [TASKMANAGER-CREATED] {'system': 'taskmanager', 'action': 'created', 'id': 29, 'title': 'fazer bolo', 'completed': False}
+2025-11-10 20:27:34 [TASKMANAGER-CREATED] {'system': 'taskmanager', 'action': 'created', 'id': 30, 'title': 'ir no mercado', 'completed': False}
+2025-11-10 20:27:48 [TASKMANAGER-CREATED] {'system': 'taskmanager', 'action': 'created', 'id': 31, 'title': 'comprar farinha', 'completed': False}
+2025-11-10 20:28:03 [TASKMANAGER-CREATED] {'system': 'taskmanager', 'action': 'created', 'id': 32, 'title': 'comprar leite', 'completed': False}
+2025-11-10 20:28:19 [TASKMANAGER-CREATED] {'system': 'taskmanager', 'action': 'created', 'id': 33, 'title': 'ir na sogra', 'completed': False}
+2025-11-10 20:28:25 [TASKMANAGER-COMPLETED] {'system': 'taskmanager', 'action': 'completed', 'id': 30, 'title': 'ir no mercado', 'completed': True}
+2025-11-10 20:28:25 [TASKMANAGER-COMPLETED] {'system': 'taskmanager', 'action': 'completed', 'id': 31, 'title': 'comprar farinha', 'completed': True}
+2025-11-10 20:28:25 [TASKMANAGER-COMPLETED] {'system': 'taskmanager', 'action': 'completed', 'id': 32, 'title': 'comprar leite', 'completed': True}
+2025-11-10 20:28:33 [TASKMANAGER-DELETED] {'system': 'taskmanager', 'action': 'deleted', 'id': 29, 'title': 'fazer bolo', 'completed': False}
+2025-11-10 20:28:35 [TASKMANAGER-DELETED] {'system': 'taskmanager', 'action': 'deleted', 'id': 33, 'title': 'ir na sogra', 'completed': False}
+2025-11-10 20:30:13 [TASKMANAGER-CREATED] {'system': 'taskmanager', 'action': 'created', 'id': 34, 'title': 'Limpar casa', 'completed': False}
+2025-11-10 20:30:31 [TASKMANAGER-CREATED] {'system': 'taskmanager', 'action': 'created', 'id': 35, 'title': 'ir no mercado', 'completed': False}
+2025-11-10 20:30:52 [TASKMANAGER-CREATED] {'system': 'taskmanager', 'action': 'created', 'id': 36, 'title': 'comprar desinfetante', 'completed': False}
+2025-11-10 20:31:15 [TASKMANAGER-COMPLETED] {'system': 'taskmanager', 'action': 'completed', 'id': 34, 'title': 'Limpar casa', 'completed': True}
+2025-11-10 20:31:15 [TASKMANAGER-COMPLETED] {'system': 'taskmanager', 'action': 'completed', 'id': 35, 'title': 'ir no mercado', 'completed': True}
+2025-11-10 20:31:15 [TASKMANAGER-COMPLETED] {'system': 'taskmanager', 'action': 'completed', 'id': 36, 'title': 'comprar desinfetante', 'completed': True}
+2025-11-10 20:31:19 [TASKMANAGER-DELETED] {'system': 'taskmanager', 'action': 'deleted', 'id': 34, 'title': 'Limpar casa', 'completed': True}
+2025-11-10 20:32:23 [TASKMANAGER-CREATED] {'system': 'taskmanager', 'action': 'created', 'id': 37, 'title': 'teste', 'completed': False}
+2025-11-10 20:32:31 [TASKMANAGER-DELETED] {'system': 'taskmanager', 'action': 'deleted', 'id': 37, 'title': 'teste', 'completed': False}

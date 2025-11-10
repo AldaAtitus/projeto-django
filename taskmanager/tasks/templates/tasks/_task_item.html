@@ -1,0 +1,21 @@
+<li>
+    {% if task.subtasks.exists %}
+        <span class="toggle">▼</span>
+    {% endif %}
+
+    {{ task.title }}
+    {% if task.completed %}
+        ✅ Concluída
+    {% else %}
+        <a href="{% url 'complete_task' task.id %}">Concluir</a>
+    {% endif %}
+    | <a href="{% url 'delete_task' task.id %}">Remover</a>
+
+    {% if task.subtasks.exists %}
+        <ul>
+            {% for sub in task.subtasks.all %}
+                {% include "tasks/_task_item.html" with task=sub %}
+            {% endfor %}
+        </ul>
+    {% endif %}
+</li>

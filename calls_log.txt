@@ -10,3 +10,6 @@
 2025-11-10 13:42:31 [CALLSYSTEM-CREATED] {'system': 'callsystem', 'action': 'created', 'id': 8, 'cliente': 'Joaquim ', 'descricao': 'porta emperrada', 'status': 'pendente'}
 2025-11-10 13:43:05 [CALLSYSTEM-COMPLETED] {'system': 'callsystem', 'action': 'completed', 'id': 8, 'cliente': 'Joaquim ', 'descricao': 'porta emperrada', 'status': 'concluida'}
 2025-11-10 13:43:11 [CALLSYSTEM-DELETED] {'system': 'callsystem', 'action': 'deleted', 'id': 8, 'cliente': 'Joaquim ', 'descricao': 'porta emperrada', 'status': 'concluida'}
+2025-11-10 19:56:40 [CALLSYSTEM-CREATED] {'system': 'callsystem', 'action': 'created', 'id': 9, 'cliente': 'Marco Antônio', 'descricao': 'Salario maior', 'status': 'pendente'}
+2025-11-10 20:05:05 [CALLSYSTEM-COMPLETED] {'system': 'callsystem', 'action': 'completed', 'id': 9, 'cliente': 'Marco Antônio', 'descricao': 'Salario maior', 'status': 'concluida'}
+2025-11-10 20:05:21 [CALLSYSTEM-DELETED] {'system': 'callsystem', 'action': 'deleted', 'id': 9, 'cliente': 'Marco Antônio', 'descricao': 'Salario maior', 'status': 'concluida'}
